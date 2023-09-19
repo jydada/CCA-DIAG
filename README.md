@@ -37,3 +37,6 @@ cd TCT_infer
 python TCT_Det.py -d "tif folder path"
 or python TCT_Det.py -f "single tif file path"
 ```
+## Contact information
+If you have any questions, feel free to contact me.
+Haoda Lu, Nanjing University of Information Science and Technology, Nanjing, China. Email: lu_haoda@bii.a-star.edu.sg

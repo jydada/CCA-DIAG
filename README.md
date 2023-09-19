@@ -5,11 +5,11 @@ A novel AI diagnostic system called CCA-DIAG was developed for cervical cancer s
 
 This repository is the official PyTorch implementation of CCA-DIAG, which can be used for fast deploying CCA-DIAG and processing WSI-level classification for various sedimentations. Considering the huge size of the data, personal information protection, patient privacy regulation, and medical institutional data regulatory policies, we prepare a subset of the data for verification and validation. 
 
-## Links to the data and code:
+## Links to the data and code
 
 - [CCA-DIAG](https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link)
 
-## Operating environment: 
+## Operating environment
 - Ubuntu 16.04 server or higher
 - GPU graphics memory of at least 7GB, recommended RTX 2080ti or higher graphics card
 

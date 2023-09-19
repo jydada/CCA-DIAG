@@ -7,7 +7,7 @@ GPU graphics memory of at least 7GB, recommended 2080ti or higher graphics card.
 
 1. Download
 ```bash
-Download the code at "https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link"
+Download the code and sample at "https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link"
 ```
 2. Install
 

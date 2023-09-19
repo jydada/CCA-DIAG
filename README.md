@@ -3,16 +3,14 @@ A novel AI diagnostic system called CCA-DIAG was developed for cervical cancer s
 
 This is the official PyTorch implementation of CCA-DIAG. The repository can be used for testing CCA-DIAG and to process WSI-level classification for cervical cancer screening. Considering the huge size of the data, personal information protection, patient privacy regulation, and medical institutional data regulatory policies, we prepare a subset of the data for verification and validation. 
 
+## Links to the code and sample:
+- [CCA-DIAG](https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link)
 
 ## Operating environment: 
 - Ubuntu 16.04 server or higher, 
 - GPU graphics memory of at least 7GB, recommended 2080ti or higher graphics card.
 
-1. Download
-```bash
-Download the code and sample at "https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link"
-```
-2. Install
+1. Install
 
 ```bash
 conda create -n infer python=3.8
@@ -29,7 +27,7 @@ sudo apt install python-openslide
 pip install -r requirements.txt
 ```
 
-3. How to run
+2. How to run
 
 ```bash
 conda activate infer

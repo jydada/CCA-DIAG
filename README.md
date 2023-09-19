@@ -4,7 +4,7 @@ A novel AI diagnostic system called CCA-DIAG was developed for cervical cancer s
 ![image](https://github.com/jydada/CCA-DIAG/blob/main/doc/fig1.png)
 
 ## Links to the code and sample:
-This link is the official PyTorch implementation of CCA-DIAG. The repository can be used for testing CCA-DIAG and to process WSI-level classification for cervical cancer screening. Considering the huge size of the data, personal information protection, patient privacy regulation, and medical institutional data regulatory policies, we prepare a subset of the data for verification and validation. 
+The link below is the official PyTorch implementation of CCA-DIAG. The repository can be used for deploying CCA-DIAG and processing WSI-level classification for cervical cancer screening. Considering the huge size of the data, personal information protection, patient privacy regulation, and medical institutional data regulatory policies, we prepare a subset of the data for verification and validation. 
 - [CCA-DIAG](https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link)
 
 ## Operating environment: 

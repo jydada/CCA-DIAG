@@ -1,0 +1,88 @@
+{
+  "_comment": "类别与名字与颜色映射", 
+  
+  "-1": {
+    "name": "ROI", 
+    "color": 4294901760,
+    "description": "ROI"
+  },
+
+  "0": {
+    "name": "Neg",
+    "color": 4278255360,
+    "description": "NILM"
+  },
+
+  "1": {
+    "name": "ASC-US", 
+    "color": 4293726817,
+    "description": "ASC-US 非典型鳞状细胞-意义不明确"
+  },
+  
+  "3": {
+    "name": "LSIL",
+    "color": 4279633855,
+    "description": "LSIL 低级别鳞状上皮内病变"
+  },
+  
+  "2": {
+    "name": "ASC-H",
+    "color": 4278546506,
+    "description": "ASC-H 非典型鳞状细胞-不除外高级别鳞状上皮内病变"
+  },
+  "4": {
+    "name": "HSIL",
+    "color": 4286396165,
+    "description": "HSIL 高级别鳞状上皮内病变"
+  },
+  "5": {
+    "name": "Trichomonas",
+    "color": 4286580098,
+    "description": "Trichomonas  阴道滴虫"
+  },
+  "6": {
+    "name": "Candida",
+    "color": 4290899972,
+    "description": "Candida 真菌，形态学上符合念珠菌属"
+  },
+  "7": {
+    "name": "AGC-NOS",
+    "color": 4293955844,
+    "description": "AGC-NOS"
+  },
+  "8": {
+    "name": "AIS",
+    "color": 4293955844,
+    "description": "AIS 子宫颈管原位腺癌"
+  },
+  "9": {
+    "name": "Trichomonas",
+    "color": 4293955844,
+    "description": "Trichomonas  阴道滴虫"
+  },
+  "10": {
+    "name": "Candida",
+    "color": 4293955844,
+    "description": "Candida 真菌，形态学上符合念珠菌属"
+  },
+  "11": {
+    "name": "Squamous",
+    "color": 4293955844,
+    "description": "鳞状细胞"
+  },
+  "12": {
+    "name": "Actinomycetes",
+    "color": 4293955844,
+    "description": "Actinomycetes 细菌，形态学上符合放线菌"
+  },
+  "13": {
+    "name": "Bacterial",
+    "color": 4293955844,
+    "description": "Bacterial 菌群变化，提示细菌性阴道病"
+  },
+  "default": {
+    "name": "Neg",
+    "color": 4285131731,
+    "description": "NILM"
+  }
+}

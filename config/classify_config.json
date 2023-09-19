@@ -1,0 +1,225 @@
+{
+  "bd": {
+    "linear_model":{
+      "if_use": true,
+      "k": 5,
+      "refine_thr": 0.3,
+      "if_use_AS_sum2topk": false,
+      "as_sum_max": 600,
+      "w": [0.20582617, 0.18115151, 0.29795346, 0.16068525, 0.15438362],
+      "alpha": [5,3,1,2,1],
+      "gamma": 0.5,
+      "Trichomonas_alpah": 1,
+      "Candida_alpah": 1
+    },
+    "fp_refine": {
+      "ASC-US": 400,
+      "LSIL": 25,
+      "ASC-H": 200,
+      "HSIL": 30,
+      "AGC": 500,
+      "ASC-US_top_thr": 0.99,
+      "LSIL_top_thr": 0.7,
+      "HSIL_top_thr": 0.7,
+      "ASC-H_top_thr": 0.8,
+      "AGC-NOS_top_thr": 0.9999,
+      "Trichomonas": 200,
+      "Candida": 200,
+      "refine_thr": 0.3,
+      "score_thr": 0.3,
+      "add_score": 0.5
+    },
+    "score_pos": {
+    "num_pos_90_thr":     150,
+    "num_ascus_90_thr":   50,
+    "pos_num":            3000
+    }
+  },
+
+  "ibp": {
+    "linear_model":{
+      "if_use": true,
+      "k": 5,
+      "refine_thr": 0.3,
+      "if_use_AS_sum2topk": true,
+      "as_sum_max": 400,
+      "w": [0.31184042, 0.08344318, 0.54513021, 0.05958619, 0],
+      "alpha": [1,1,1,1,1],
+      "gamma": 0.8,
+      "Trichomonas_alpah": 1,
+      "Candida_alpah": 1
+    },
+    "fp_refine": {
+      "ASC-US": 400,
+      "LSIL": 10,
+      "ASC-H": 100,
+      "HSIL": 15,
+      "AGC": 20,
+      "ASC-US_top_thr": 0.999,
+      "LSIL_top_thr": 0.6,
+      "HSIL_top_thr": 0.8,
+      "ASC-H_top_thr": 0.8,
+	  "AGC-NOS_top_thr": 0.9,
+      "Trichomonas": 200,
+      "Candida": 200,
+      "refine_thr": 0.3,
+      "score_thr": 0.3,
+      "add_score": 0.5
+    },
+    "score_pos": {
+    "num_pos_90_thr":     150,
+    "num_ascus_90_thr":   300,
+    "pos_num":            4000
+    }
+  },
+
+  "thinprep": {
+    "linear_model":{
+      "if_use": true,
+      "k": 5,
+      "refine_thr": 0.3,
+      "if_use_AS_sum2topk": true,
+      "as_sum_max": 1500,
+      "w": [0.39578281, 0.16838007, 0.39223006, 0.04360706, 0],
+      "alpha": [1, 3, 1, 2, 0],
+      "gamma": 0.55,
+      "Trichomonas_alpah": 1,
+      "Candida_alpah": 1
+    },
+    "fp_refine": {
+      "ASC-US": 800,
+      "LSIL": 100,
+      "ASC-H": 500,
+      "HSIL": 200,
+      "AGC": 500,
+      "ASC-US_top_thr": 0.99,
+      "LSIL_top_thr": 0.85,
+      "HSIL_top_thr": 0.85,
+      "ASC-H_top_thr": 0.92,
+      "AGC-NOS_top_thr": 0.9999,
+      "Trichomonas": 200,
+      "Candida": 200,
+      "refine_thr": 0.3,
+      "score_thr": 0.3,
+      "add_score": 0.5
+    },
+    "score_pos": {
+    "num_pos_90_thr":     150,
+    "num_ascus_90_thr":   50,
+    "pos_num":            3000
+    }
+  },
+
+  "healthsky": {
+    "linear_model":{
+      "if_use": true,
+      "k": 5,
+      "refine_thr": 0.3,
+      "if_use_AS_sum2topk": false,
+      "as_sum_max": 600,
+      "w": [0.20582617, 0.18115151, 0.29795346, 0.16068525, 0.15438362],
+      "alpha": [5,3,1,2,1],
+      "gamma": 0.5,
+      "Trichomonas_alpah": 1,
+      "Candida_alpah": 1
+    },
+    "fp_refine": {
+      "ASC-US": 400,
+      "LSIL": 25,
+      "ASC-H": 200,
+      "HSIL": 30,
+      "AGC": 500,
+      "ASC-US_top_thr": 0.99,
+      "LSIL_top_thr": 0.7,
+      "HSIL_top_thr": 0.7,
+      "ASC-H_top_thr": 0.8,
+      "AGC-NOS_top_thr": 0.9999,
+      "Trichomonas": 200,
+      "Candida": 200,
+      "refine_thr": 0.3,
+      "score_thr": 0.3,
+      "add_score": 0.5
+    },
+    "score_pos": {
+    "num_pos_90_thr":     150,
+    "num_ascus_90_thr":   50,
+    "pos_num":            3000
+    }
+  },
+
+  "other": {
+    "linear_model":{
+      "if_use": true,
+      "k": 5,
+      "refine_thr": 0.3,
+      "if_use_AS_sum2topk": true,
+      "as_sum_max": 400,
+      "w": [0.40501288, 0.12379375, 0.32140534, 0.14978802, 0],
+      "alpha": [1,1,1,1,1],
+      "gamma": 0.8,
+      "Trichomonas_alpah": 1,
+      "Candida_alpah": 1
+    },
+    "fp_refine": {
+      "ASC-US": 500,
+      "LSIL": 60,
+      "ASC-H": 700,
+      "HSIL": 50,
+      "AGC": 600,
+      "ASC-US_top_thr": 0.95,
+      "LSIL_top_thr": 0.82,
+      "HSIL_top_thr": 0.72,
+      "ASC-H_top_thr": 0.82,
+      "AGC-NOS_top_thr": 0.9999,
+      "Trichomonas": 200,
+      "Candida": 200,
+      "refine_thr": 0.3,
+      "score_thr": 0.3,
+      "add_score": 0.5
+    },
+    "score_pos": {
+    "num_pos_90_thr":     300,
+    "num_ascus_90_thr":   150,
+    "pos_num":            5000
+    }
+  },
+
+  "score_pos": {
+    "num_pos_90_thr":     90,
+    "num_ascus_90_thr":   45,
+    "pos_num":            3000
+  },
+
+  "cell_num_refine": {
+    "if_use": true,
+    "cell_num_thr": 5000,
+    "add_score": 0.5
+  },
+
+  "cell_refine": {
+    "if_use":             true,
+    "refine_thr":         0.3
+  },
+
+  "patch_refine": {
+    "if_use":             false,
+    "refine_thr":         0.3,
+    "score_thr":          0.1,
+    "patch_num":          20,
+    "if_show":            true,
+    "pos_patch_thr":      0.5,
+    "pos_overlay_thr":    0.95,
+    "modify_method":      "thr",
+    "select_patch_model": "sort",
+    "model":              "efficientnet-b2",
+    "model_path":         "model_zoo/classifier_model/patch_refine/efficientnet-b2/best_epoch_9.ckpt",
+    "gpu_id":             0
+  },
+
+    "enhancement": {
+    "if_use":         false,
+    "ascus_sum_thr":  238,
+    "asch_sum_thr":   18,
+    "hsil_top5_thr":  0.93
+  }
+}

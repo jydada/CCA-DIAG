@@ -1,9 +1,9 @@
-
+# AI-Driven Cervical Cancer Cytological Diagnosis Solution based on Large Scale Data Collections and Annotations: A Multi-centre Clinical Validation
 A novel AI diagnostic system called CCA-DIAG was developed for cervical cancer screening based on a hybrid machine learning framework, which is capable of efficient WSI-level classification for various sedimentations.
 
-Operating environment: 
-Ubuntu 16.04 server or higher, 
-GPU graphics memory of at least 7GB, recommended 2080ti or higher graphics card.
+## Operating environment: 
+- Ubuntu 16.04 server or higher, 
+- GPU graphics memory of at least 7GB, recommended 2080ti or higher graphics card.
 
 1. Download
 ```bash

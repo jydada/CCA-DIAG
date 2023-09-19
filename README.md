@@ -1,6 +1,8 @@
 # AI-Driven Cervical Cancer Cytological Diagnosis Solution based on Large Scale Data Collections and Annotations: A Multi-centre Clinical Validation
 A novel AI diagnostic system called CCA-DIAG was developed for cervical cancer screening based on a hybrid machine learning framework, which is capable of efficient WSI-level classification for various sedimentations.
 
+![](docs/fig1.png)
+
 This is the official PyTorch implementation of CCA-DIAG. The repository can be used for testing CCA-DIAG and to process WSI-level classification for cervical cancer screening. Considering the huge size of the data, personal information protection, patient privacy regulation, and medical institutional data regulatory policies, we prepare a subset of the data for verification and validation. 
 
 ## Links to the code and sample:

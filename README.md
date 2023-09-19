@@ -1,4 +1,8 @@
-1.Install
+1.Download
+```bash
+Download the code at https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link
+```
+2.Install
 
 ```bash
 conda create -n infer python=3.8
@@ -15,7 +19,7 @@ sudo apt install python-openslide
 pip install -r requirements.txt
 ```
 
-2.How to run
+3.How to run
 
 ```bash
 conda activate infer
@@ -24,8 +28,8 @@ python TCT_Det.py -d "tif folder path"
 or python TCT_Det.py -f "single tif file path"
 ```
 
-3.运行环境
+4.Operating environment
 
-Ubuntu16.04server或更高版本
+Ubuntu 16.04 server or higher
 
-GPU显存至少7G，推荐2080ti或更高的显卡
+GPU graphics memory of at least 7GB, recommended 2080ti or higher graphics card

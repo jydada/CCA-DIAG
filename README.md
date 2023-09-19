@@ -39,5 +39,8 @@ python TCT_Det.py -d "tif folder path"
 or python TCT_Det.py -f "single tif file path"
 ```
 ## Contact information
-If you have any questions, feel free to contact me.
-Haoda Lu, Computational Digital Pathology Lab (CDPL), Bioinformatics Institute, A*STAR, Singapore. Email: lu_haoda@bii.a-star.edu.sg
+If you have any questions, feel free to contact us. 
+
+Bingxian CHEN, Ningbo KonFoong Bioinformation Tech Co. Ltd, Ningbo, Zhejiang, China. Email: bingxian.chen@kfbio.cn.
+
+Haoda Lu, Computational Digital Pathology Lab (CDPL), Bioinformatics Institute, A*STAR, Singapore. Email: lu_haoda@bii.a-star.edu.sg.

@@ -30,7 +30,7 @@ sudo apt install python-openslide
 pip install -r requirements.txt
 ```
 
-2. Inference
+2. Running the Inference Code 
 
 ```bash
 conda activate infer

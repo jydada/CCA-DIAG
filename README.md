@@ -13,7 +13,7 @@ This repository is the official PyTorch implementation of CCA-DIAG, which can be
 - Ubuntu 16.04 server or higher
 - GPU graphics memory of at least 7GB, recommended RTX 2080ti or higher graphics card
 
-1. Install
+1. Set Up Environment
 
 ```bash
 conda create -n infer python=3.8
@@ -30,7 +30,7 @@ sudo apt install python-openslide
 pip install -r requirements.txt
 ```
 
-2. How to run
+2. Inference
 
 ```bash
 conda activate infer

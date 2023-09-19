@@ -1,3 +1,6 @@
+
+A novel AI diagnostic system called CCA-DIAG was developed for cervical cancer screening based on a hybrid machine learning framework, which is capable of efficient WSI-level classification for various sedimentations.
+
 1.Download
 ```bash
 Download the code at "https://drive.google.com/drive/folders/1a1LjZ779uyJx3gs7OJ4K1DCrwaoeACWy?usp=drive_link"
